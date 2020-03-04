@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-project_title = 'calculate hyponoses pythoras';
+project_title = 'calculate hyponoses pythoras theorem';
 input1 = null;
 input2 = null;
 canDisplay = false;
