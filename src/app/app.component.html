@@ -1,0 +1,28 @@
+<div class="form-group">
+  <header class="form-container">
+  {{ project_title }}
+  </header>
+</div>
+
+<br><br>
+
+<div class="main-body">
+
+  <div class="triangle-container">
+      <div class="triangle">
+          <label class="result" *ngIf="canDisplay">{{hypo}}</label>
+          <input class="input" id="input1" type="text" [(ngModel)] = "input1" />
+          <input class="input" id="input2" type="text"[(ngModel)] = "input2"/>
+      </div>
+  </div>
+
+
+ <br><br><br><br>
+ <div class="button-container">
+     <form>
+      <button class="button" (click)="handleSubmit()">calculator </button>
+      <button type="button" (click)="onReset()">Reset</button>
+     </form>   
+    
+ </div>
+</div>
